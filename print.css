@@ -50,8 +50,6 @@
     height: 290mm;
     max-width: 210mm;
     max-height: 290mm;
-    border: var(--thin-border-gray);
-    border-radius: var(--value-0-5);
   }
   .header {
     display: -ms-grid;
@@ -1296,6 +1294,9 @@
     -ms-grid-column-span: 4;
     grid-column: 1/5;
   }
+  .skills a {
+    text-decoration: underline;
+  }
   .experiences {
     -ms-grid-row: 4;
     -ms-grid-row-span: 3;
@@ -1385,6 +1386,7 @@
   .other-skills-title {
     font-size: var(--value-1-5);
     margin: var(--value-1);
+    margin-bottom: var(--value-0-5);
   }
   .other-skills-ul {
     margin: var(--value-1);

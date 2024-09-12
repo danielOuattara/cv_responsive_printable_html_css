@@ -269,6 +269,12 @@ main {
 .skills-icon-header {
   font-size: var(--value-3);
 }
+
+.skills a {
+  text-decoration: none;
+  background-color: var(--primary-background);
+  color: black;
+}
 .education-span-date-info,
 .experiences-span-date-info {
   font-weight: lighter;
@@ -1724,6 +1730,9 @@ footer {
   .skills-h3 {
     margin-bottom: var(--value-0);
     font-weight: 600;
+  }
+  .skills a {
+    text-decoration: underline;
   }
   .education-ul,
   .experiences-ul {
