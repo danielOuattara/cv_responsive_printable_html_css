@@ -341,7 +341,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: var(--value-0-5);
+  opacity: 0.5;
 }
 @media screen and (min-width: 425px) {
   .footer-links-icons,
