@@ -1,0 +1,58 @@
+@media only print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+    padding: 0;
+  }
+
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary-background: #e2f0e3;
+    --primary-font-color: #ce9700;
+    --secondary-font-color: #b68500;
+    --thin-border-gray: 0.063rem solid rgb(211, 211, 211);
+    --thin-border-green: 0.063rem solid #015f63;
+    --box-shadow-light: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.2),
+      0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    --color-white: #fff;
+    --color-black: #000;
+    --value-0: 0;
+    --value-0-25: 0.156rem;
+    --value-0-5: 0.313rem;
+    --value-0-75: 0.469rem;
+    --value-1: 0.625rem;
+    --value-1-25: 0.781rem;
+    --value-1-3: 0.813rem;
+    --value-1-4: 0.875rem;
+    --value-1-5: 0.938rem;
+    --value-1-6: 1rem;
+    --value-1-75: 1.094rem;
+    --value-2: 1.25rem;
+    --value-2-25: 1.406rem;
+    --value-2-5: 1.563rem;
+    --value-2-75: 1.719rem;
+    --value-3: 1.875rem;
+    --value-5: 3.125rem;
+    --header-height: 10rem;
+  }
+
+  html {
+    font-family: "Open sans", Arial, sans-serif;
+  }
+
+  body {
+    max-width: 210mm;
+    max-height: 297mm;
+    width: 210mm;
+    height: 297mm;
+    border: var(--thin-border-gray);
+    border-radius: var(--value-0-5);
+  }
+}
