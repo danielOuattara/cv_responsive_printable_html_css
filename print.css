@@ -241,6 +241,15 @@
     color: rgb(61, 138, 54);
   }
 
+  /* Final note */
+  .final-note {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #818181;
+    color: #fff;
+  }
+
   /* Footer 
   ----------*/
 
