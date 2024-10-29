@@ -53,7 +53,7 @@ html {
     border-radius: var(--value-0-5);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(10, 1fr);
   }
 
   .header {
