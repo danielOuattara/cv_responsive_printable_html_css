@@ -256,13 +256,14 @@
   }
   .main a {
     text-decoration: none;
-    background-color: rgba(231, 231, 231, 0.555);
+    background-color: rgba(219, 219, 219, 0.555);
     color: var(--main-text-color);
     cursor: pointer;
   }
 
   .main a:hover {
-    background-color: rgba(231, 231, 231, 0.87);
+    background-color: rgba(219, 219, 219, 0.8);
+  }
   }
   .projects-inner-span::before,
   .education-inner-span::before {
