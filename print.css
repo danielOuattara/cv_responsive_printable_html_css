@@ -50,7 +50,6 @@
     --value-5: 5rem;
     --header-height: 16rem;
   }
-
   html {
     font-family: "Open sans", Arial, sans-serif;
     background-color: #fff;
@@ -80,7 +79,7 @@
   h2 {
     font-size: var(--value-1);
     padding-bottom: var(--value-0-50);
-    margin-top: var(--value-0-75);
+    margin-top: var(--value-0-50);
     margin-bottom: var(--value-0-5);
   }
 
@@ -103,6 +102,7 @@
     background: var(--primary-color);
     padding-left: var(--value-1);
     padding-right: var(--value-1);
+    border-top-left-radius: var(--value-0-50);
   }
 
   .aside h2 {
@@ -247,8 +247,8 @@
   }
 
   .main li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0.45rem;
   }
 
   .main h3 {
@@ -273,8 +273,10 @@
   /* Final note */
   .final-note {
     display: flex;
+    font-size: 0.65rem;
     justify-content: center;
     text-align: center;
     background-color: var(--primary-color);
+    border-bottom-left-radius: var(--value-0-50);
   }
 }
