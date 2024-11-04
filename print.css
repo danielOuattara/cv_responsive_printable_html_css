@@ -15,15 +15,13 @@
 
   :root {
     --primary-color: #ffc800;
-    --aside-text-color: #424242;
-    --main-text-color: #424242;
-    --thin-border-gray: 0.1rem solid rgb(211, 211, 211);
-    --thin-border-green: 0.1rem solid #015f63;
+    --aside-text-color: #2b2b2b;
+    --main-text-color: #3b3b3b;
+    --thin-border-gray: 1px solid rgb(211, 211, 211);
+    --thin-border-green: 1px solid #015f63;
     --box-shadow-light: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2),
       0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
     --color-white: #fff;
-    --main-text-color: #000;
-    --main-text-color: #424242;
     --value-0: 0;
     --value-0-25: 0.25rem;
     --value-0-50: 0.5rem;
@@ -50,6 +48,7 @@
     --value-5: 5rem;
     --header-height: 16rem;
   }
+
   html {
     font-family: "Open sans", Arial, sans-serif;
     background-color: #fff;
@@ -106,7 +105,7 @@
   }
 
   .aside h2 {
-    border-bottom: 0.1rem solid var(--aside-text-color);
+    border-bottom: 1px solid var(--aside-text-color);
   }
   .contact-links {
     margin-top: 2rem;
@@ -146,7 +145,7 @@
 
   .aside a {
     text-decoration: underline;
-    padding: 0.1rem;
+    padding: 1px;
   }
 
   .aside-links-icons {
@@ -193,7 +192,7 @@
 
   .header-span-title {
     padding-bottom: 5px;
-    border-bottom: 0.1rem solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
   }
 
   .header h2 {
@@ -214,7 +213,7 @@
     font-style: italic;
     display: inline-block;
     margin-bottom: var(--value-0-25);
-    border-bottom: 0.1rem solid var(--main-text-color);
+    border-bottom: 1px solid var(--main-text-color);
   }
 
   .main {
@@ -226,7 +225,7 @@
   }
 
   h2 {
-    border-bottom: 0.1rem solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
   }
 
   .resume-text {
@@ -264,20 +263,19 @@
   .main a:hover {
     background-color: rgba(219, 219, 219, 0.8);
   }
-  }
-  .projects-inner-span::before,
-  .education-inner-span::before {
-    content: " \25B4";
-    color: var(--primary-color);
-  }
+}
+.projects-inner-span::before,
+.education-inner-span::before {
+  content: " \25B4";
+  color: var(--primary-color);
+}
 
-  /* Final note */
-  .final-note {
-    display: flex;
-    font-size: 0.65rem;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--primary-color);
-    border-bottom-left-radius: var(--value-0-50);
-  }
+/* Final note */
+.final-note {
+  display: flex;
+  font-size: 0.65rem;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--primary-color);
+  border-bottom-left-radius: var(--value-0-50);
 }
