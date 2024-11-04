@@ -8,15 +8,13 @@
 
 :root {
   --primary-color: #ffc800;
-  --aside-text-color: #424242;
-  --main-text-color: #424242;
-  --thin-border-gray: 0.1rem solid rgb(211, 211, 211);
-  --thin-border-green: 0.1rem solid #015f63;
+  --aside-text-color: #2b2b2b;
+  --main-text-color: #3b3b3b;
+  --thin-border-gray: 1px solid rgb(211, 211, 211);
+  --thin-border-green: 1px solid #015f63;
   --box-shadow-light: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2),
     0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
   --color-white: #fff;
-  --main-text-color: #000;
-  --main-text-color: #424242;
   --value-0: 0;
   --value-0-25: 0.25rem;
   --value-0-50: 0.5rem;
@@ -74,7 +72,7 @@ html {
   h2 {
     font-size: var(--value-1);
     padding-bottom: var(--value-0-50);
-    margin-top: var(--value-0-75);
+    margin-top: var(--value-0-50);
     margin-bottom: var(--value-0-5);
   }
 
@@ -97,10 +95,11 @@ html {
     background: var(--primary-color);
     padding-left: var(--value-1);
     padding-right: var(--value-1);
+    border-top-left-radius: var(--value-0-50);
   }
 
   .aside h2 {
-    border-bottom: 0.1rem solid var(--aside-text-color);
+    border-bottom: 1px solid var(--aside-text-color);
   }
   .contact-links {
     margin-top: 2rem;
@@ -140,7 +139,7 @@ html {
 
   .aside a {
     text-decoration: underline;
-    padding: 0.1rem;
+    padding: 1px;
   }
 
   .aside-links-icons {
@@ -187,7 +186,7 @@ html {
 
   .header-span-title {
     padding-bottom: 5px;
-    border-bottom: 0.1rem solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
   }
 
   .header h2 {
@@ -208,7 +207,7 @@ html {
     font-style: italic;
     display: inline-block;
     margin-bottom: var(--value-0-25);
-    border-bottom: 0.1rem solid var(--main-text-color);
+    border-bottom: 1px solid var(--main-text-color);
   }
 
   .main {
@@ -220,7 +219,7 @@ html {
   }
 
   h2 {
-    border-bottom: 0.1rem solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
   }
 
   .resume-text {
@@ -241,8 +240,8 @@ html {
   }
 
   .main li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0.45rem;
   }
 
   .main h3 {
@@ -250,13 +249,13 @@ html {
   }
   .main a {
     text-decoration: none;
-    background-color: rgba(231, 231, 231, 0.555);
+    background-color: rgba(219, 219, 219, 0.555);
     color: var(--main-text-color);
     cursor: pointer;
   }
 
   .main a:hover {
-    background-color: rgba(231, 231, 231, 0.87);
+    background-color: rgba(219, 219, 219, 0.8);
   }
   .projects-inner-span::before,
   .education-inner-span::before {
@@ -267,8 +266,10 @@ html {
   /* Final note */
   .final-note {
     display: flex;
+    font-size: 0.65rem;
     justify-content: center;
     text-align: center;
     background-color: var(--primary-color);
+    border-bottom-left-radius: var(--value-0-50);
   }
 }
